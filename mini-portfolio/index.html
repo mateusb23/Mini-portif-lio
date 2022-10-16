@@ -1,74 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/estilos.css">
 
-    <title>Portfólio Mateus Santos Bispo</title>
-</head>
-<body>
-    <!-- aqui podem ser colocados comentarios sobre o codigo-->
+    <title>Mini Portfólio</title>
+  </head>
+  <body>
     <main class="cartao">
-        <div class="minhas-informacoes">
-            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
-            <h1 class="nome" style="font-family: 'VT323', monospace;">Mateus Bispo</h1>
-            <h2 class="cargo">Desenvolvedor Backend Júnior</h2>
-        </div>
+      <div class="minhas-informacoes">
+        <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil" />
+        <h1 class="nome">Mateus Santos Bispo</h1>
+        <h2 class="cargo">Desenvolvedor Backend Júnior</h2>
+      </div>
 
-        <div class="conteudo">
-            <ul class="abas">
-                <li class="aba">
-                    <img src="./src/imagens/sobre.gif" alt="icone de sobre mim"">
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado">
+            <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba">
+            <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>Oi! meu nome é Mateus Bispo, seja bem-vindo(a)!</p>
+
+              <p>
+                Sou uma pessoa apaixonada pela programação desde o momento em que tive 
+                o primeiro contato na faculdade. Sempre tive o sonho de trabalhar com programação e
+                atualmente comecei a colocar esse sonho em prática estudando
+                <span>Java, OracleDB e JavaScript</span>. Gosto muito de café e meus
+                principais hobbies são ler, assistir filmes e correr com meu cão.
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.dropbox.com/home?preview=Curriculum.Mateus.docx" target="_blank" class="curriculo">Currículo</a>
                 </li>
                 <li>
-                    <img src="./src/imagens/coracao.gif" alt="icones de redes sociais">
+                    <a href="https://www.linkedin.com/in/mateus-bispo-317798201/" target="_blank" class="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/mateusb23" target="_blank" class="github">GitHub</a>
                 </li>
             </ul>
-
-            <div>
-
-            </div class="informacoes-abas">
-                <div class="informacao">
-                    <h3 class="sub-titulo">Sobre</h3>
-
-                    <div class="descricao">
-                        <p>Oi! me chamo Mateus Santos Bispo, seja bem vindo(a)</p>
-
-                        <p>Sou uma pessoa apaixonada pela propgramação desde que
-                            eu tinha 15 anos. Sempre tive  o sonho de trabalhar com
-                            programação e atualmente comecei a colocar esse sonho 
-                            em prática estudando <span>HTML,CSS e JavaScript</span>. Gosto muito de café
-                            (até demais), e meus principais hobbies são jogar MMO RPG, ver 
-                            animes e séries.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="informacao">
-                    <h3 class="sub-titulo">Minhas redes</h3>
-
-                    <ul class="redes-siciais">
-                        <li>
-                            <a href="https://www.dropbox.com/scl/fi/buw7xs3wemfx0o9wsb58a/Curriculum.Mateus.docx?dl=0&rlkey=eyimbkukuwm0xfyx62xhar89o" target="_blank" class="curriculo">Currículo</a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/mateus-bispo-317798201/" target="_blank" class="linkedin">Linkedin</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/mateusb23" target="_blank" class="github">Github</a>
-                        </li>
-                    </ul>
-                </div>
+          </div>
 
         </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
